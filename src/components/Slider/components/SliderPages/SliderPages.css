@@ -1,0 +1,26 @@
+.sliderPages {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderPages span {
+  padding: 10px;
+  margin-right: 4px;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.activePage {
+  background-color: black;
+}
+
+.notActivePage {
+  background-color: white;
+  border: 1px solid black;
+}
+
