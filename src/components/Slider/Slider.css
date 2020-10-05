@@ -5,3 +5,8 @@
     overflow: hidden;
     display: flex;
 }
+
+.slide{
+    border: 0px;
+    pointer-events: none;
+}

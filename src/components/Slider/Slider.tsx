@@ -64,10 +64,9 @@ const Slider: FC<SliderProps> = (p) => {
                             return React.cloneElement(child,
                                 {
                                     style: {
-                                        width: width + 'px',
-                                        border: '0px',
-                                        pointerEvents: 'none'
-                                    }
+                                        width: width + 'px'
+                                    },
+                                    className: 'slide'
                                 }
                             );
                         })

@@ -6,12 +6,11 @@ import './SliderPages.css';
 interface ISliderPages {
     slides: React.ReactNode[]
     activeSlide: ActiveSlide
-    moveToSlide: (i: number) => void
+    moveToSlide: (i: ActiveSlide) => void
 }
 
 const SliderPages: FC<ISliderPages> = (p) => (
-    <div
-        className={'sliderPages'}>
+    <div className={'sliderPages'}>
         {
             p.slides.map((slide, i) => (
                 <span
